@@ -23,7 +23,6 @@ public class organizacion_models {
      private String welcomeText;
      @Column(columnDefinition = "TEXT")
      private String aboutUsText;
-    
      @Column
      @Temporal(TemporalType.TIMESTAMP)
      private Date  timestamps;
